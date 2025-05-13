@@ -10,6 +10,8 @@ client = Anthropic(
 )
 
 def chatbot(conversation_history=[]):
+
+    ## This version lets you start the conversation with a pre-existing chat history to pick up where you left off!
     
     done = "y"
 
